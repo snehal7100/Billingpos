@@ -1,5 +1,7 @@
-from django.http import HttpResponse
 from django.shortcuts import render
 
 def Login(request):
-    return render(request,"index.html")
+    return render(request,"Component/index.html")
+
+def Index(request):
+    return render(request,"Templates/index.html")
